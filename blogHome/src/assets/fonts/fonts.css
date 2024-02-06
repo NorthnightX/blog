@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Playball';
+    src: url('Playball.ttf') format('truetype'); /* 根据你字体文件的路径和格式来修改 */
+    /* 可选：可以添加其他字体格式来提供更好的兼容性，比如woff、woff2等 */
+}
+
+@font-face {
+    font-family: 'LongCang-Regular';
+    src: url('LongCang-Regular.ttf') format('truetype');
+    /* 可选：添加其他字体格式来提供更好的兼容性，比如woff、woff2等 */
+}
+/* 使用Playball字体的文本 */
+.playball-text {
+    font-family: 'Playball', cursive;
+}
+
+/* 使用LongCang-Regular字体的文本 */
+.longcang-text {
+    font-family: 'LongCang-Regular', cursive;
+}
